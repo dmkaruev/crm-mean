@@ -9,7 +9,7 @@ const authRoutes = require('./routes/auth');
 // const positionRoutes = require('./routes/position');
 const app = express();
 
-app.use(bodyParser.urlencoded({extended: true}));
+app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 app.use(morgan('dev'));
 app.use(cors());
